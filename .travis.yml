@@ -10,6 +10,8 @@ before_install:
 install:
   - sudo python3 -m pip install mypy
   - sudo pip install -r requirements.txt
+  - sudo pip install typing
+  - pip install typing
   
 script:
     - python main.py test
