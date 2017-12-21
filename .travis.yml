@@ -15,4 +15,4 @@ install:
   
 script:
     - python main.py test
-    - python main.py mypy
+    - mypy -2 accounts.py
