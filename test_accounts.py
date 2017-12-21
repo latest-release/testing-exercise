@@ -48,5 +48,6 @@ class TestBankAccount(unittest.TestCase):
         
         self.assertTrue(acc.get_balance() == amount)
 
+
 if __name__=="__main__":
     unittest.main()
